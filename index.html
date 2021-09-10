@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coco Bambu</title>
+        <link rel="stylesheet" href="css/style.css">
+
+        <style>
+            .inputError {
+                border: 1px solid red;
+            }
+
+            .erro {
+                color: red;
+            }
+        </style>
+        
+    </head>
+    <body>
+
+        <form id="formLogin" action="">
+            <div class="container">
+                <img class="logo" src="css/logo-coco-bambu.png">
+                <br><br><br><br>
+                <input class="login" name="login" type="text" placeholder="Nome do usuário" maxlength=15>
+                <span class="erro"></span>
+                <br><br>
+                <input class="password" name="password" type="password" placeholder="Senha" maxlength=10>
+                <span class="erro"></span>
+                <br><br>
+                <button style="border: none; background-color: orangered; color: white; width: 100%;
+                height: 32px;" id="acessar" type="submit">Acessar</button>
+            </div>
+        </form>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

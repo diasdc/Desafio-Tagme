@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+background-color: black;
+height: 50px;
+}
+
+.logoheader {
+    padding: 5px 5px;
+    margin-top: 5px;
+}
+
+.busca {
+    padding:10px;
+    margin-top: 10px;
+    float:right;
+    width:30%;
+    height: 30%;
+    border:none;
+    text-align:left;
+    border-radius: 0;
+    outline: none;    
+}
+
+.enviar {
+    float: right;
+    margin-top: 10px;
+    margin-right: 35%;
+    width: 3%;
+    height: 70%;
+    background-image: url(icon-busca.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 70%;
+    background-position: right;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.prato1 {
+    margin: auto 1%;
+    float: left;
+}
+
+.prato2 {
+    margin: auto 1%;
+    padding: 20px;
+    width: 35%;
+    height:10%;
+    float: left;
+    text-orientation: sideways-right;
+    text-align:justify;
+}
+
+p {
+    font-size: 1vw;
+	margin: 0;
+}

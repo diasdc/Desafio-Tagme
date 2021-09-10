@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coco Bambu- Frutos do Mar ao Azeite de Ervas</title>
+        <link rel="stylesheet" href="css/style3.css">
+    </head>
+    <body>
+        <section class="container">
+            <div class="foto-prato3">
+                <br>
+                <a class="voltar" href="busca-receitas.html"><img src="css/icon-back.png" style="resize: vertical;" width="20px">Voltar</a>
+                <div class="titulo-prato">
+                    <b>Frutos do Mar ao Azeite de Ervas</b>
+                </div>
+                <div class="descricao-prato">
+                    Para apreciadores de frutos do mar, com leve aroma de azeite de ervas finas. Mexilhões, polvo, peixe, camarão e lula salteados com azeite, champignon, cebola picada,pimentão, alho, alcaparras e brócolis. Servidos com arroz de brócolis e legumes salteados
+                </div>
+                <div class="tempo-preparo">
+                    Tempo de preparo<br><b>30 minutos</b>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="ingredientes">
+                <label><b>Ingredientes</b></label>
+                    <br><br>
+
+                <input type="checkbox" name="ingrediente" id="fettuccine"> <label for="fettuccine">250 gr fettuccine</label>
+                <br>
+                <input type="checkbox" name="ingrediente" id="lula"> <label for="lula">250 gr lula</label>
+                <br>
+                <input type="checkbox" name="ingrediente" id="vieira"> <label for="vieira">6 unname="ingrediente" idades de vieira</label>
+                <br>
+                <input type="checkbox" name="ingrediente" id="camarao"> <label for="camarao">6 unname="ingrediente" idades de camarão rosa</label>
+                <br>
+                <input type="checkbox" name="ingrediente" id="vongole"> <label for="vongole">60 gr vôngole</label>
+                <br>
+                <input type="checkbox" name="ingrediente" id="tomate"> <label for="tomate">100 gr tomate cereja</label>
+                <br>
+                <input type="checkbox" name="ingrediente" id="abobrinha"> <label for="abobrinha">100 gr mini-abobrinha</label>
+                <br>
+                <input type="checkbox" name="ingrediente" id="azeite"> <label for="azeite">200 ml azeite de oliva alecrim a gosto</label>
+                <br>
+                <input type="checkbox" name="ingrediente" id="tomilho"> <label for="tomilho">1 maço de tomilho</label>
+                <br>
+                <input type="checkbox" name="ingrediente" id="manjericao"> <label for="manjericao">1 maço de manjericão</label>
+                <br>
+                <input type="checkbox" name="ingrediente" id="manteiga"> <label for="manteiga">30 gr manteiga</label>
+
+            </div>
+            <br><br><br>
+            <div class="modo-preparo">
+                <label><b>Modo de preparo</b></label>
+                <br><br>
+                <input type="checkbox" name="preparo" id="passo1"> <label for="passo1"><b>Passo 1</b><br></label>
+                <div class="descricaoPasso">
+                    Junte todas as ervas e pique muito bem com a faca. Some a 150 ml de azeite e deixe
+                </div>
+                <br><br>
+                <input type="checkbox" name="preparo" id="passo2"> <label for="passo2"><b>Passo 2</b><br></label>
+                <div class="descricaoPasso">
+                    Limpe as lulas, descartando as nadadeiras e a pele, e guardando os corpos e as cabeças.
+                </div>
+                <br><br>
+                <input type="checkbox" name="preparo" id="passo3"> <label for="passo3"><b>Passo 3</b><br></label>
+                <div class="descricaoPasso">
+                    Encha de água uma panela grande e leve ao fogo alto até ferver.
+                </div>
+                <br><br>
+                <input type="checkbox" name="preparo" id="passo4"> <label for="passo4"><b>Passo 4</b><br></label>
+                <div class="descricaoPasso">
+                    Junte água a tapar esta mistura e assim que ferver deite o arroz e mexa. 
+                    Quando retomar a fervura, deixe cozer tapado durante 10 minutos, vá mexendo para não pegar.
+                </div>
+                <br><br>
+                <input type="checkbox" name="preparo" id="passo5"> <label for="passo5"><b>Passo 5</b><br></label>
+                <div class="descricaoPasso">
+                    Apague o lume, junte as delícias cortadas em cubinhos e polvilhe com coentros picados. Sirva de seguida.
+                </div>
+                <br><br>
+                <input type="checkbox" name="preparo" id="passo6"> <label for="passo6"><b>Passo 6</b><br></label>
+                <div class="descricaoPasso">
+                    Selar os camarões, repita o processo com a lula e acabou!
+                </div>
+                <br><br>
+
+                <div class="rodape">
+                    <button id="iniciar" style="border:orangered; background-color:orangered; text-align: center; color:white; height: 30px; width: 120px; margin-left: 68%; margin-top: 2%;">Iniciar preparação</button>
+                </div>
+            </div>
+                                 
+        </section>
+
+        <div class="backgroundModal" id="backgroundModal">
+            <div id="abrirModal" class="modal" style="background-color: white;width: 220px;height: 120px;margin: 10% auto;padding: 25px 40px 50px 40px;display: block;text-align: center; z-index: 1;">
+                <h4>OBRIGADO</h4>
+                <br>
+                <p>Pedido finalizado com sucesso!</p>
+                
+            </div>
+            <button id="fechar2" style="background: none; border: none; height: 30px;width: 30px; margin-left:59%; margin-top: 7%; position:absolute; z-index:2;"><img src="css/icon-close.png" alt="close"></button>
+
+            <button id="fecharPedido" style="background-color:white;text-align: center;color: black;height: 30px;width: 100px; margin-left:46%; margin-top: 19%; position:absolute; z-index:2;">OK</button>
+        </div>   
+        
+        <div class="backgroundErro" id="backgroundErro">
+            <div id="abrirErro" class="modal" style="background-color: white;width: 220px;height: 120px;margin: 10% auto;padding: 25px 40px 50px 40px;display: block;text-align: center; z-index: 1;">
+                <p>Para iniciar a preparação, certifique-se de que você tem todos os ingredientes selecionados!</p>                        
+            </div>
+            <button id="fechar1" style="background: none; border: none; height: 30px;width: 30px; margin-left:59%; margin-top: 7%; position:absolute; z-index:2;"><img src="css/icon-close.png" alt="close"></button>
+
+            <button id="fecharErro" style="background-color:white;text-align: center;color: black;height: 30px;width: 100px; margin-left:46%; margin-top: 19%; position:absolute; z-index:2;">Entendi</button>
+        </div>
+
+        <div class="backgroundErro2" id="backgroundErro2">
+            <div id="abrirErro2" class="modal" style="background-color: white;width: 220px;height: 120px;margin: 10% auto;padding: 25px 40px 50px 40px;display: block;text-align: center; z-index: 1;">
+                <p>Para finalizar o pedido, certifique-se de que você tem todos os passos de preparo selecionados!</p>                        
+            </div>
+            <button id="fechar3" style="background: none; border: none; height: 30px;width: 30px; margin-left:59%; margin-top: 7%; position:absolute; z-index:2;"><img src="css/icon-close.png" alt="close"></button>
+
+            <button id="fecharErro2" style="background-color:white;text-align: center;color: black;height: 30px;width: 100px; margin-left:46%; margin-top: 19%; position:absolute; z-index:2;">Entendi</button>
+        </div>
+
+        <script src="script3.js"></script>
+
+    </body>
+</html>

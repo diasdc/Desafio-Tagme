@@ -1,0 +1,39 @@
+body {
+    background-image: url(img-bg-login.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container {
+width: 173px;
+margin: auto;
+margin-top: 300px;
+margin-bottom: 300px;
+}
+
+.logo {
+    width:150px;
+    margin-left:10px;
+}
+
+.login {
+    height:32px;
+    border:none;
+    background-image: url(icon-login.png);
+    background-repeat: no-repeat;
+    background-size:30px;
+    text-align:center;
+    outline: none;
+}
+
+.password {
+    height:32px;
+    border:none;
+    background-image: url(icon-key.png);
+    background-repeat: no-repeat;
+    background-size:30px;
+    text-align:center;
+    outline: none;
+}
+
